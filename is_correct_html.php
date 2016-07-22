@@ -47,3 +47,4 @@ function getClosingTag($tag)
 
 print isCorrectHtml($correctHtml) . PHP_EOL;
 print !isCorrectHtml($incorrectHtml) . PHP_EOL;
+print !isCorrectHtml($incorrectTagHtml) . PHP_EOL;

@@ -23,10 +23,10 @@ $categories = array(
 
 function searchCategory($categories, $id)
 {
-    $result = '';
-
     foreach($categories as $category)
     {
+        $result = '';
+        
         if($category['id'] == $id)
         {
             $result = $category['title'];
